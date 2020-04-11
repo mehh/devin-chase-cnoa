@@ -17,8 +17,8 @@ const Nav = () => {
           </Col>
           <Col xs="10" md="6" className="links">
             <Link to="/">Home</Link>
-            <Link to="/portfolio">Portfolio</Link>
-            <Link to="/book-consult">Get In Touch</Link>
+            {/* <Link to="/portfolio">Portfolio</Link> */}
+            <Link to="/get-in-touch">Get In Touch</Link>
           </Col>
         </Row>
       </Container>

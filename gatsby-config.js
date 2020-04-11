@@ -31,7 +31,7 @@ module.exports = {
             variants: [`400`, `600`, `700`, `800`],
           },
           {
-            family: `Quattrocento`,
+            family: `Raleway`,
             variants: [`400`, `700`],
           },
         ],
@@ -46,7 +46,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-sass`,
-    `gatsby-plugin-netlify-cms`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

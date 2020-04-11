@@ -66,6 +66,7 @@ h1 {
 
 h2 {
   font-size: 32px;
+  font-weight: bold;
   @include bp-tablet-sm {
     font-size: 28px;
   }

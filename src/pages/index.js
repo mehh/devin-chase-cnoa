@@ -14,6 +14,7 @@ import Nav from "../components/nav/nav"
 import Intro from "../components/intro/intro"
 import About from "../components/about/about"
 import Process from "../components/process/process"
+import Video from "../components/video/video"
 import Testimonial from "../components/testimonial/testimonial"
 import CTA from "../components/cta/cta"
 
@@ -22,20 +23,20 @@ const IndexPage = () => (
     <SEO title="Devin Chase for CNOA Sergeant-at-Arms" />
     <Nav />
     <Hero
-      title="Devin Chase for CNOA Sergeant-at-Arms"
+      title="California Narcotic Officers' Association"
       subTitle="Devin Chase for CNOA Sergeant-at-Arms"
-      btnText="Get in Touch"
+      btnText="Get In Touch"
     />
     <Intro
       title="Devin Chase for CNOA Sergeant-at-Arms"
       text="Devin is a lifetime member of CNOA and has been teaching for the Association and volunteering in various capacities since the 1990's, including several turns on the CNOA Executive Board."
-      imgAlt="affordable wedding flowers niagara"
-      btnText="View Portfolio"
+      imgAlt="Devin Chase for CNOA Sergeant-at-Arms"
+      btnText="Get In Touch"
     />
     <About
       title="Devin Chase"
       subTitle="a proven track record"
-      imgAlt="cheap bridal bouquets niagara"
+      imgAlt="Devin Chase for CNOA Sergeant-at-Arms"
       btnText="Get in Touch"
       textOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus."
       textTwo="Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing. Tellus orci ac auctor augue mauris augue neque gravida. Duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam. Leo vel fringilla est ullamcorper eget nulla facilisi. Sed blandit libero volutpat sed cras ornare. "
@@ -53,6 +54,7 @@ const IndexPage = () => (
       textThree=" Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"
       textFour=" Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"
     />
+    <Video />
     <Testimonial
       title="My Promise"
       text="I believe that my background and experience make me the best candidate to be your next Sergeant-at-Arms.  I know that my teaching and leadership expertise will further benefit CNOA  in this role and I will work to bring the most current and relevant training, at an affordable cost.  I will work dilligently to improve what is already an oustanding organization."

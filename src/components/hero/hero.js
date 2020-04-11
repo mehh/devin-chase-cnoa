@@ -26,7 +26,7 @@ function Hero({ title, subTitle, btnText }) {
 
               <h2>{subTitle}</h2>
 
-              <Link to="/book-consult">
+              <Link to="/get-in-touch">
                 <button>{btnText}</button>
               </Link>
             </Col>
