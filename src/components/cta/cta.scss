@@ -1,0 +1,22 @@
+// CTA
+@import "../variables.scss";
+@import "../breakpoints.scss";
+
+#cta {
+  padding: 120px 0px 60px 0px;
+  @include bp-tablet-sm {
+    padding: 40px 0px 40px 0px;
+  }
+  button {
+    color: $body;
+
+    &:hover {
+      color: #FFF;
+    }
+  }
+  @include bp-tablet-sm {
+    form {
+      margin-bottom: 0px;
+    }
+  }
+}
