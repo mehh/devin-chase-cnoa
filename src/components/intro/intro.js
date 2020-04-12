@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 
 import "./intro.scss"
 // import introImg from "../../images/chase_ceremony.jpg"
-import introImg from "../../images/chase_award.jpg"
+import introImg from "../../images/chase_ceremony.jpg"
 
 const variants = {
   hidden: { opacity: 0 },

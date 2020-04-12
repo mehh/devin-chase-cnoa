@@ -1,0 +1,23 @@
+.bg-image {
+
+
+    .container {
+        max-width: 1500px
+    }
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    p, h1, h2, h3, h4, h5 {
+        color: #FFF;
+    }
+    
+
+    .bg-right {
+        padding: 100px 0;
+        background-image: linear-gradient(to right, rgb(0, 50, 77), rgb(0, 50, 77), transparent, transparent), 
+        url("../../images/chase_cnoa_2012.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

@@ -20,9 +20,19 @@ function Intro({ title, text, imgAlt, btnText }) {
       <section id="video">
         <Container>
           <Row>
-            <Col lg="12">
-              <h2>Sergeant at Arms Candidate Statement</h2>
-              <p>Why Me, Why Now?</p>
+          <Col lg="6">
+              <h5>Why Me, Why Now?</h5>
+              <div class="rich-text">
+                  <h2>Devin’s Story.</h2>
+              </div>
+
+
+              <p>After serving the public for 32 years as a Law Enforcement Officer, and instructing over 20 years for CNOA, I am ready to be Sergeant-at-Arms</p>
+              
+
+            </Col>
+
+          <Col lg="6">
 
               <div class='embed-container'>
                 <iframe title="CNOA Video" src="https://www.youtube.com/embed/XbBQC07IjvM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

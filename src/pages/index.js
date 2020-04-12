@@ -16,7 +16,9 @@ import About from "../components/about/about"
 import Process from "../components/process/process"
 import Video from "../components/video/video"
 import Testimonial from "../components/testimonial/testimonial"
+import BGImage from "../components/bg-image/bg-image"
 import CTA from "../components/cta/cta"
+
 
 const IndexPage = () => (
   <Layout>
@@ -29,12 +31,12 @@ const IndexPage = () => (
     />
     <Intro
       title="Devin Chase for CNOA Sergeant-at-Arms"
-      text="Devin is a lifetime member of CNOA and has been teaching for the Association and volunteering in various capacities since the 1990's, including several turns on the CNOA Executive Board."
+      text="Devin is a <strong>lifetime member</strong> of CNOA and has been teaching for the Association and volunteering in various capacities since the 1990's, including several turns on the CNOA Executive Board."
       imgAlt="Devin Chase for CNOA Sergeant-at-Arms"
       btnText="Get In Touch"
     />
     <About
-      title="Devin Chase"
+      title="A lifetime in leadership"
       subTitle="a proven track record"
       imgAlt="Devin Chase for CNOA Sergeant-at-Arms"
       btnText="Get in Touch"
@@ -61,6 +63,7 @@ const IndexPage = () => (
       author="Devin Chase"
       imgAlt="Devin Chase Sergeant at Arms"
     />
+    <BGImage />
     <CTA />
   </Layout>
 )

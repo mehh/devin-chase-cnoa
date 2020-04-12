@@ -2,7 +2,7 @@ import React from "react"
 import { Container, Row, Col } from "reactstrap"
 
 import "./testimonial.scss"
-import testimonialImg from "../../images/chase_headshot.jpg"
+import testimonialImg from "../../images/chase_award.jpg"
 
 function Testimonial({ title, text, author, imgAlt }) {
   return (

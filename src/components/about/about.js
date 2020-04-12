@@ -26,8 +26,11 @@ function About({ title, subTitle, text, imgAlt, btnText, textOne, textTwo, textT
               <img src={aboutImg} alt={imgAlt} />
             </Col>
             <Col lg={{ size: 5, offset: 1 }}>
-              <h2>{title}</h2>
-              <h4>{subTitle}</h4>
+              
+              <h5>{subTitle}</h5>
+              <div class="rich-text">
+                  <h2>{title}</h2>
+              </div>
 
                 <p>Devin is a lifetime member of CNOA and has been teaching for the Association and volunteering in various capacities since the 1990's, including several turns on the CNOA Executive Board.  </p>
 
