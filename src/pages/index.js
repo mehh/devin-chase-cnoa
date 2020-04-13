@@ -31,7 +31,7 @@ const IndexPage = () => (
     />
     <Intro
       title="Devin Chase for CNOA Sergeant-at-Arms"
-      text="Devin is a <strong>lifetime member</strong> of CNOA and has been teaching for the Association and volunteering in various capacities since the 1990's, including several turns on the CNOA Executive Board."
+      text="Devin is a lifetime member of CNOA and has been teaching for the Association and volunteering in various capacities since the 1990's, including several turns on the CNOA Executive Board."
       imgAlt="Devin Chase for CNOA Sergeant-at-Arms"
       btnText="Get In Touch"
     />

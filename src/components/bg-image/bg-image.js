@@ -32,7 +32,7 @@ function bgImage({ title, text, imgAlt, btnText }) {
                             <p>To win this election, it’s going to take all of us volunteering our time and energy to elect Devin. Download my PDF to share, or fill out my contact form to discover volunteer opportunities related to your interests and skills.</p>
                         </div>
                         <a href={pdf} class="btn btn-lg btn-block btn-danger">Download PDF</a>
-                        <a href="#cta" class="btn btn-lg btn-block btn-primary">Email Me</a>
+                        <a href="/get-in-touch/" class="btn btn-lg btn-block btn-primary">Email Me</a>
                     </div>
                 </div>              
           </Row>
