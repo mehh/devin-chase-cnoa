@@ -1,3 +1,6 @@
+@import "../variables.scss";
+@import "../breakpoints.scss";
+
 .bg-image {
 
 
@@ -19,5 +22,12 @@
         url("../../images/chase_cnoa_2012.jpg");
         background-repeat: no-repeat;
         background-size: cover;
+
+        @include bp-tablet-sm {
+            padding: 50px 50px;
+
+            background-image: linear-gradient(to right, rgb(0, 50, 77), rgb(0, 50, 77), rgb(0, 50, 77), transparent), 
+            url("../../images/chase_cnoa_2012.jpg");
+        }
     }
 }

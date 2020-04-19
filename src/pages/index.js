@@ -44,6 +44,7 @@ const IndexPage = () => (
       textTwo="Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing. Tellus orci ac auctor augue mauris augue neque gravida. Duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam. Leo vel fringilla est ullamcorper eget nulla facilisi. Sed blandit libero volutpat sed cras ornare. "
       textThree="Ut pharetra sit amet aliquam id diam maecenas ultricies mi. Cras adipiscing enim eu turpis egestas pretium aenean. Gravida dictum fusce ut placerat orci nulla pellentesque. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. Libero id faucibus nisl tincidunt eget nullam non nisi. Pretium lectus quam id leo in."
     />
+    <Video />
     <Process
       mainTitle="My Experience"
       mainSubTitle="What I can bring to CNOA"
@@ -56,7 +57,7 @@ const IndexPage = () => (
       textThree=" Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"
       textFour=" Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"
     />
-    <Video />
+    
     <Testimonial
       title="My Promise"
       text="I believe that my background and experience make me the best candidate to be your next Sergeant-at-Arms.  I know that my teaching and leadership expertise will further benefit CNOA  in this role and I will work to bring the most current and relevant training, at an affordable cost.  I will work dilligently to improve what is already an oustanding organization."

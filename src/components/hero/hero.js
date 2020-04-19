@@ -26,9 +26,9 @@ function Hero({ title, subTitle, btnText }) {
 
               <h2>{subTitle}</h2>
 
-              <Link to="/get-in-touch">
+              {/* <Link to="/get-in-touch">
                 <button>{btnText}</button>
-              </Link>
+              </Link> */}
             </Col>
             <Col lg="3">&nbsp;</Col>
           </Row>
