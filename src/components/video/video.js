@@ -22,20 +22,23 @@ function Intro({ title, text, imgAlt, btnText }) {
           <Row>
           <Col lg="6">
               <h5>Why Me, Why Now?</h5>
-              <div class="rich-text">
+              <div className="rich-text">
                   <h2>Devin’s Story.</h2>
               </div>
 
 
               <p>After serving the public for 32 years as a Law Enforcement Officer, and instructing over 20 years for CNOA, I am ready to be Sergeant-at-Arms</p>
+              <br />
+              <p>Please share the link below:</p>
+                <div className="share-link">https://youtu.be/XbBQC07IjvM</div>
               
 
             </Col>
 
           <Col lg="6">
 
-              <div class='embed-container'>
-                <iframe title="CNOA Video" src="https://www.youtube.com/embed/XbBQC07IjvM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div className="embed-container">
+                <iframe title="CNOA Video" src="https://www.youtube.com/embed/XbBQC07IjvM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </div>
 
             </Col>

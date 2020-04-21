@@ -28,7 +28,7 @@ function About({ title, subTitle, text, imgAlt, btnText, textOne, textTwo, textT
             <Col lg={{ size: 5, offset: 1 }}>
               
               <h5>{subTitle}</h5>
-              <div class="rich-text">
+              <div className="rich-text">
                   <h2>{title}</h2>
               </div>
 

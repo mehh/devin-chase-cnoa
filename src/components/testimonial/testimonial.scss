@@ -5,8 +5,18 @@
 #testimonial {
   background: $grey;
   padding: 120px 0px 120px 0px;
+
+  p {
+    font-size: 22px;
+  }
+
   @include bp-tablet-sm {
     padding: 40px 0px 40px 0px;
+
+    p {
+      font-size: 14px;
+    }
+    
   }
   img {
     border: 3px solid #e7b7a6;

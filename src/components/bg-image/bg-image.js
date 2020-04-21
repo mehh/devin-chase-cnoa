@@ -22,17 +22,18 @@ function bgImage({ title, text, imgAlt, btnText }) {
       <section className="bg-image">
         <Container>
           <Row>
-                <div class="bg-right homepage-volunteer-container rounded-0-md rounded-lg row lazy">
-                    <div class="col-lg-4 offset-lg-1 col-xs-12 offset-xs-0 col-md-6">
+                <div className="bg-right homepage-volunteer-container rounded-0-md rounded-lg row lazy">
+                    <div className="col-lg-4 offset-lg-1 col-xs-12 offset-xs-0 col-md-6">
                         <h5>Volunteer</h5>
-                        <div class="rich-text">
+                        <div className="rich-text">
                             <h2>Get involved.</h2>
                         </div>
-                        <div class="rich-text">
+                        <div className="rich-text">
                             <p>To win this election, it’s going to take all of us volunteering our time and energy to elect Devin. Download my PDF to share my qualifications, or fill out my contact form to discover volunteer opportunities related to your interests and skills.</p>
                         </div>
-                        <a href={pdf} class="btn btn-lg btn-block btn-danger">Download Flyer of Qualifications</a>
-                        <a href="/get-in-touch/" class="btn btn-lg btn-block btn-primary">Email Me</a>
+                        <br />
+                        <a href={pdf} className="btn btn-lg btn-block btn-danger">Download Flyer of Qualifications</a>
+                        <a href="/get-in-touch/" className="btn btn-lg btn-block btn-primary">Email Me</a>
                     </div>
                 </div>              
           </Row>

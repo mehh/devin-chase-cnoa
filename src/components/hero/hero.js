@@ -21,14 +21,11 @@ function Hero({ title, subTitle, btnText }) {
       >
         <Container>
           <Row>
-            <Col lg="9">
-              <h1>{title}</h1>
-
-              <h2>{subTitle}</h2>
-
-              {/* <Link to="/get-in-touch">
-                <button>{btnText}</button>
-              </Link> */}
+            <Col lg="12">
+              <div className="header-copy">
+                <h1>{title}</h1>
+                <h2>{subTitle}</h2>
+              </div>
             </Col>
             <Col lg="3">&nbsp;</Col>
           </Row>

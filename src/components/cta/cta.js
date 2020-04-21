@@ -3,6 +3,8 @@ import { Container, Row, Col } from "reactstrap"
 import { motion } from "framer-motion"
 
 import "./cta.scss"
+import cnoaLogo from "../../images/cnoa_logo.jpeg"
+
 
 const variants = {
   hidden: { opacity: 0 },
@@ -25,6 +27,10 @@ function CTA({ title, text }) {
               <p>
                 Fill out the form and I'll get back to you as soon as I can!
               </p>
+
+              <div className="logo">
+                <img src={cnoaLogo} />
+              </div>
             </Col>
             <Col lg="6">
               <form
@@ -33,29 +39,29 @@ function CTA({ title, text }) {
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
               >
-                <div class="form-group">
+                <div className="form-group">
                   <input
                     name="name"
                     type="name"
-                    class="form-control"
+                    className="form-control"
                     id="Name"
                     aria-describedby="namehelp"
                     placeholder="Name"
                   />
                 </div>
-                <div class="form-group">
+                <div className="form-group">
                   <input
                     name="email"
                     type="email"
-                    class="form-control"
+                    className="form-control"
                     id="Email"
                     placeholder="Email"
                   />
                 </div>
-                <div class="form-group">
+                <div className="form-group">
                   <textarea
                     name="message"
-                    class="form-control"
+                    className="form-control"
                     id="Message"
                     rows="3"
                     placeholder="How can I help you?"

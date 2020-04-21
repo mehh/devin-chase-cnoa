@@ -12,7 +12,11 @@ import "./layout.css"
 
 const Layout = ({ children }) => {
   return (
+
+    
+    
     <>
+      <script async src="https://platform-api.sharethis.com/js/sharethis.js#property=5e9e76d66c9606001225d87a&product=sticky-share-buttons"></script>
       <main>{children}</main>
     </>
   )

@@ -25,12 +25,12 @@ const IndexPage = () => (
     <SEO title="Devin Chase for CNOA Sergeant-at-Arms" />
     <Nav />
     <Hero
-      title="California Narcotic Officers' Association"
-      subTitle="Devin Chase for CNOA Sergeant-at-Arms"
+      title="Vote for Devin Chase"
+      subTitle="The Background and Leadership Experience to be Your Next Sergeant At Arms"
       btnText="Get In Touch"
     />
     <Intro
-      title="Devin Chase for CNOA Sergeant-at-Arms"
+      title="Why Devin, Why Now?"
       text="Devin is a lifetime member of CNOA and has been teaching for the Association and volunteering in various capacities since the 1990's, including several turns on the CNOA Executive Board."
       imgAlt="Devin Chase for CNOA Sergeant-at-Arms"
       btnText="Get In Touch"
@@ -59,7 +59,7 @@ const IndexPage = () => (
     />
     
     <Testimonial
-      title="My Promise"
+      title=""
       text="I believe that my background and experience make me the best candidate to be your next Sergeant-at-Arms.  I know that my teaching and leadership expertise will further benefit CNOA  in this role and I will work to bring the most current and relevant training, at an affordable cost.  I will work dilligently to improve what is already an oustanding organization."
       author="Devin Chase"
       imgAlt="Devin Chase Sergeant at Arms"
