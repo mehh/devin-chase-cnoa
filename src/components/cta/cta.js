@@ -23,6 +23,14 @@ function CTA({ title, text }) {
         <Container>
           <Row>
             <Col lg="6">
+            <h2>Support CNOA By Voting</h2>
+              <p>
+              In August 2020 all CNOA members will receive an electronic ballot to vote for the CNOA Sergeant-at-Arms position.  I would appreciate your vote.
+              </p>
+
+
+
+              
               <h2>Have any questions for me?</h2>
               <p>
                 Fill out the form and I'll get back to you as soon as I can!
